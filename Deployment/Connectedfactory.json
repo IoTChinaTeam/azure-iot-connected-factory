@@ -558,8 +558,7 @@
           "name": "[parameters('keyVaultSkuName')]",
           "family": "A"
         },
-        "tenantId": "[parameters('aadTenant')]",
-        "accessPolicies": "[variables('keyVaultAccessPolicies')]"
+        "tenantId": "[parameters('aadTenant')]"
       }
     },
     {
