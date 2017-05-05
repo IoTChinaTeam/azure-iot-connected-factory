@@ -526,7 +526,7 @@
       },
       "properties": {
         "enabledForDeployment": true,
-        "enabledForTemplateDeployment": false,
+        "enabledForTemplateDeployment": true,
         "enabledForVolumeEncryption": false,
         "sku": {
           "name": "[parameters('keyVaultSkuName')]",
