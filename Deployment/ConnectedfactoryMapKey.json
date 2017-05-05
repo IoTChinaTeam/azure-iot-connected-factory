@@ -310,7 +310,7 @@
     "keyVaultWebsiteSecretName": "[concat(parameters('keyVaultSecretBaseName'), '-Website')]",
     "keyVaultAccessPolicies": [
       {
-        "objectId": "[parameters('webSitesServicePrincipalObjectId')]",
+        "objectId": "[parameters('rdxAccessPolicyPrincipalObjectId')]",
         "tenantId": "[parameters('aadTenant')]",
         "permissions": {
           "keys": [
